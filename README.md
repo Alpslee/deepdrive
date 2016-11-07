@@ -234,9 +234,9 @@ python run.py --weights some.caffemodel
 
 Where some.caffemodel is relative to `C:\Program Files\DeepDrive\caffe`
 
-If you run into problems, it may be easier to see what the caffe process is doing by opening the `caffe.sln file` in Visual Studio and running (without building) from there. Check the output window for logs.
+If you run into problems, it may be easier to see what the caffe process is doing by opening the `caffe.sln` file in Visual Studio and running (without building) from there. Check the output window for logs.
 
-To save on CPU (esp. on AWS), you can close OBS once Game2Sensor is displaying the screen. This as OBS is only used to hook the frame buffer (see [Structure](#structure). 
+To save on CPU (esp. on AWS), you can close OBS once Game2Sensor is displaying the screen. This as OBS is only used to hook the frame buffer (see [Structure](#structure)). 
 
 If you're using the AWS AMI, be aware that the frames the neural net gets are somehow linked to what you see via RDP / nomachine. So if you see a low frame rate, the car is likely to drive off the road since the net is acting on outdated pixels. Also, the AWS g2 machines have old K520 NVidia card which use CUDA arch 3.0. I have a feeling this hurts performance as well, as the car drives off to the right and stalls out much more frequently than on a Win7 or Win10 machine I have with a GTX 980 and 1080 respectively. The net was trained on a GTX 980 with CUDA arch 5.0. So for the best performance, using a local windows machine with GPU that supports CUDA 5.0 is the way to go.
 
