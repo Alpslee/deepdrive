@@ -217,7 +217,7 @@ _Xbox360ce is a gamepad emulator that we will need in order to route control fro
 
 ## Structure
 
-The structure is ugly, and so is this diagram. Happy Haloween! ![deepdrive structure](https://www.dropbox.com/s/npum6771mcsuue8/DeepDrive-Structure.png?dl=1). 
+The structure is ugly, and so is this diagram. Happy Halloween! ![deepdrive structure](https://www.dropbox.com/s/npum6771mcsuue8/DeepDrive-Structure.png?dl=1). 
 
 # Running
 
