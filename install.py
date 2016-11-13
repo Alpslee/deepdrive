@@ -79,7 +79,7 @@ def replace_saved_games():
     zip_ref = zipfile.ZipFile(location, 'r')
     backup_saved_games()
     for saved_games_profile_folder in saved_games_profile_folders:
-        logger.info('Replacing saved games in', saved_games_profile_folder)
+        logger.info('Replacing saved games in %s', saved_games_profile_folder)
         zip_ref.extractall(saved_games_profile_folder)
     zip_ref.close()
 
@@ -112,6 +112,7 @@ def main():
             json.dump(config, outfile, indent=4, sort_keys=True)
 
     setup(config, args)
+    logger.info('Installation complete!')
 
 
 if __name__ == '__main__':
