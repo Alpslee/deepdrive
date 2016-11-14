@@ -16,6 +16,8 @@ _Note that driving performance seems to be degraded due to possible latency and/
 
 TODO: Add AMI's for every region here
 
+Make sure you use the `g2.2xlarge` and select EBS optimized when launching your instance. All other settings are the defaults.
+
 Now skip to the [Running](#running) instructions
 
 ## Install from scratch 
