@@ -87,7 +87,7 @@ class GTAVRunner(object):
     def popen(self):
         self._kill_competing_procs()
         self.obs_process = self._start_process('OBS', _start_obs_command)
-        input('Press any key after ensuring GTAV is not open and hitting the "Preview Stream" button in OBS...')
+        input('Press any key after ensuring GTAV is not open and hitting the "Preview Stream" button in OBS (you should see a black preview pane)')
         self.gtav_process = self._start_process('GTAV', _start_gtav_command)
         if IS_STEAM:
             steam_message = ' (you may need to login to steam as well)'
