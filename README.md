@@ -57,6 +57,8 @@ Windows update - AMI only
 
 Run Windows Update and restart if neccessary. It will stay at downloading 0kbps for a few minutes while it does some other CPU stuff. Don't worry, it will eventually start to actually download. The update takes several minutes, but you can continue to install things while the update takes place.
 
+We will be running commands that add to your `PATH`, so it's a good idea to save your system `PATH` and user `PATH` somewhere before getting started in case you want to revert back.
+
 Allow Powershell to install things
 ```
 Set-ExecutionPolicy RemoteSigned
