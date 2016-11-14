@@ -195,17 +195,6 @@ _Xbox360ce is a gamepad emulator that we will need in order to route control fro
   * Ensure you're using directx 11
   * I use 800x600 resolution, but anything should work as it gets resized on the GPU to 227x227
 
-### Start state
-* Load Story Mode from the start screen of GTA
-* You should see something similar to this
-![deepdrive start](https://www.dropbox.com/s/5upus3x3r0ggiu8/Screenshot%202016-10-30%2014.22.11.png?dl=1)
-* If you don't see the above car/location, then load the following saved game (this was downloaded into your saved games by install.py)
-![deepdrive load](https://www.dropbox.com/s/kh9usuppivcmmid/Screenshot%202016-10-30%2014.21.24.png?dl=1)
-* Now place the camera on the hood by hitting <kbd>v</kbd> until you see something like this
-![deepdrive load](https://www.dropbox.com/s/q28tce40ukurm9p/Screenshot%202016-10-30%2014.33.50.png?dl=1)
-* If you see the steering wheel, change the camera settings like so:
-![deepdrive load](https://www.dropbox.com/s/h3xu98jz45bafld/Screenshot%202016-10-30%2014.28.42.png?dl=1)
-
 ### Setup OBS
 
 * Run OBS.exe: `C:\Program Files\DeepDrive\OBS-new\rundir\OBS.exe`
@@ -225,6 +214,19 @@ The structure is ugly, and so is this diagram. Happy Halloween! ![deepdrive stru
 cd "C:\Program Files\DeepDrive"
 python run.py
 ```
+
+Follow the instructions on starting OBS. Once GTA has started, refer to the following:
+
+### Start state
+* Load Story Mode from the start screen of GTA
+* You should see something similar to this
+![deepdrive start](https://www.dropbox.com/s/5upus3x3r0ggiu8/Screenshot%202016-10-30%2014.22.11.png?dl=1)
+* If you don't see the above car/location, then load the following saved game (this was downloaded into your saved games by install.py)
+![deepdrive load](https://www.dropbox.com/s/kh9usuppivcmmid/Screenshot%202016-10-30%2014.21.24.png?dl=1)
+* Now place the camera on the hood by hitting <kbd>v</kbd> until you see something like this
+![deepdrive load](https://www.dropbox.com/s/q28tce40ukurm9p/Screenshot%202016-10-30%2014.33.50.png?dl=1)
+* If you see the steering wheel, change the camera settings like so:
+![deepdrive load](https://www.dropbox.com/s/h3xu98jz45bafld/Screenshot%202016-10-30%2014.28.42.png?dl=1)
 
 ## Passing caffemodel weights
 
