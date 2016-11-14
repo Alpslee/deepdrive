@@ -217,6 +217,8 @@ python run.py
 
 Follow the instructions on starting OBS. Once GTA has started, refer to the following:
 
+_ProTip™_ Hit alt-tab in remote desktop to control windows other than GTA - On noMachine hit windows key (command on mac) with mouse outside the game, then hit windows key again since alt-tab doesn’t work
+
 ### Start state
 * Load Story Mode from the start screen of GTA
 * You should see something similar to this
