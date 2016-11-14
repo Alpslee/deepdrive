@@ -214,7 +214,16 @@ The structure is ugly, and so is this diagram. Happy Halloween! ![deepdrive stru
 
 # Running
 
-Double-click the DeepDrive link on the desktop
+```
+cd "C:\Program Files\DeepDrive\deepdrive"
+python run.py
+```
+
+OR
+
+On the pre-built AMI, double-click the DeepDrive link on the desktop
+
+(Note that things may not work the first run, as there seems to be some priming that takes place. If you don't see GTA in the OBS preview, or loading _Story Mode_ freezes the first time, try starting things again. Also note that running will close all the processes for you, so you don't need to manually close everything by hand.)
 
 Follow the instructions on starting OBS. Once GTA has started, refer to the following:
 
