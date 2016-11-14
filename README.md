@@ -190,7 +190,7 @@ _Xbox360ce is a gamepad emulator that we will need in order to route control fro
 * Also, if you ever find that your mouse behaves strangely after running the simulator, open Vjoy Feeder Demo to reset the joystick controls
 
 ### GTAV Graphics settings
-* Start GTA
+* Start GTA - _ProTip™_ Hit alt-tab in remote desktop to control windows other than GTA - On noMachine hit windows key (command on mac) with mouse outside the game, then hit windows key again since alt-tab doesn’t work
 * Hit Esc to enter the main menu -> Settings -> Graphics -> Pause Game On Focus Loss: Off
   * Ensure you're using directx 11
   * I use 800x600 resolution, but anything should work as it gets resized on the GPU to 227x227
