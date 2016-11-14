@@ -210,10 +210,7 @@ The structure is ugly, and so is this diagram. Happy Halloween! ![deepdrive stru
 
 # Running
 
-```
-cd "C:\Program Files\DeepDrive"
-python run.py
-```
+Double-click the DeepDrive link on the desktop
 
 Follow the instructions on starting OBS. Once GTA has started, refer to the following:
 
